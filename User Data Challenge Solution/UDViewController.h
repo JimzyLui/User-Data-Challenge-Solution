@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface UDViewController : UIViewController
+
+@property(nonatomic,strong)NSMutableArray *users;
 
 @end
