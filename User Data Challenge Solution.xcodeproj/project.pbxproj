@@ -22,7 +22,6 @@
 		7DEE2E951815FCE600B41C0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE2E931815FCE600B41C0B /* InfoPlist.strings */; };
 		7DEE2E971815FCE600B41C0B /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE2E961815FCE600B41C0B /* User_Data_Challenge_SolutionTests.m */; };
 		7DEE2EA21815FD1700B41C0B /* UDUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE2EA11815FD1700B41C0B /* UDUserData.m */; };
-		7DEE2EA518161FB700B41C0B /* UDUserDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE2EA418161FB700B41C0B /* UDUserDataObject.m */; };
 		7DEE2EAD18162D1900B41C0B /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE2EA918162D1900B41C0B /* person1.jpeg */; };
 		7DEE2EAE18162D1900B41C0B /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE2EAA18162D1900B41C0B /* person2.jpeg */; };
 		7DEE2EAF18162D1900B41C0B /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE2EAB18162D1900B41C0B /* person3.jpg */; };
@@ -61,8 +60,6 @@
 		7DEE2E961815FCE600B41C0B /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
 		7DEE2EA01815FD1700B41C0B /* UDUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDUserData.h; path = ../UDUserData.h; sourceTree = "<group>"; };
 		7DEE2EA11815FD1700B41C0B /* UDUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDUserData.m; path = ../UDUserData.m; sourceTree = "<group>"; };
-		7DEE2EA318161FB700B41C0B /* UDUserDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDUserDataObject.h; sourceTree = "<group>"; };
-		7DEE2EA418161FB700B41C0B /* UDUserDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDUserDataObject.m; sourceTree = "<group>"; };
 		7DEE2EA918162D1900B41C0B /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
 		7DEE2EAA18162D1900B41C0B /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
 		7DEE2EAB18162D1900B41C0B /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
@@ -126,8 +123,6 @@
 		7DEE2E711815FCE500B41C0B /* User Data Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
-				7DEE2EA318161FB700B41C0B /* UDUserDataObject.h */,
-				7DEE2EA418161FB700B41C0B /* UDUserDataObject.m */,
 				7DEE2E7A1815FCE500B41C0B /* UDAppDelegate.h */,
 				7DEE2E7B1815FCE600B41C0B /* UDAppDelegate.m */,
 				7DEE2E7D1815FCE600B41C0B /* Main.storyboard */,
@@ -279,7 +274,6 @@
 				7DEE2E781815FCE500B41C0B /* main.m in Sources */,
 				7DEE2EA21815FD1700B41C0B /* UDUserData.m in Sources */,
 				7DEE2E7C1815FCE600B41C0B /* UDAppDelegate.m in Sources */,
-				7DEE2EA518161FB700B41C0B /* UDUserDataObject.m in Sources */,
 				7DEE2E821815FCE600B41C0B /* UDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +483,7 @@
 				7DEE2E9C1815FCE600B41C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DEE2E9D1815FCE600B41C0B /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +492,7 @@
 				7DEE2E9F1815FCE600B41C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

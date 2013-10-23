@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#define USERDATA_USERNAME @"username"
-#define USERDATA_EMAIL @"email"
-#define USERDATA_PASSWORD @"password"
-#define USERDATA_AGE @"age"
-#define USERDATA_IMAGE @"profilePicture"
+#define USER_USERNAME @"username"
+#define USER_EMAIL @"email"
+#define USER_PASSWORD @"password"
+#define USER_AGE @"age"
+#define USER_PROFILE_PICTURE @"profilePicture"
 @interface UDUserData : NSObject
 
 

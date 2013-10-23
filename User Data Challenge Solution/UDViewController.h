@@ -11,6 +11,6 @@
 
 @interface UDViewController : UIViewController
 
-@property(nonatomic,strong)NSMutableArray *users;
+@property(nonatomic,strong)NSArray *users;
 
 @end

@@ -13,22 +13,17 @@
 
 +(NSArray *)users
 {
+    NSDictionary *user1 = @{USER_USERNAME : @"ssmith", USER_EMAIL : @"ssmith@gmail.com", USER_PASSWORD : @"th3r@1n1n5p@1n", USER_AGE:@32, USER_PROFILE_PICTURE:[UIImage imageNamed:@"person1.jpeg"]};
     
-    NSMutableArray *userData = [@[] mutableCopy];
+    NSDictionary *user2 = @{USER_USERNAME : @"jlui", USER_EMAIL : @"jlui@gmail.com", USER_PASSWORD : @"th3r@1fn1n5fp@1n", USER_AGE:@50, USER_PROFILE_PICTURE:[UIImage imageNamed:@"person2.jpeg"]};
     
-    NSDictionary *userDict1 = @{USERDATA_USERNAME : @"ssmith", USERDATA_EMAIL : @"ssmith@gmail.com", USERDATA_PASSWORD : @"th3r@1n1n5p@1n", USERDATA_AGE:@32, USERDATA_IMAGE:@"person1.jpeg"};
-    [userData addObject:userDict1];
+    NSDictionary *user3 = @{USER_USERNAME : @"gchen", USER_EMAIL : @"gchen@gmail.com", USER_PASSWORD : @"th3r@1sn1n5p@1n", USER_AGE:@27, USER_PROFILE_PICTURE:[UIImage imageNamed:@"person3.jpg"]};
     
-    NSDictionary *userDict2 = @{USERDATA_USERNAME : @"jlui", USERDATA_EMAIL : @"jlui@gmail.com", USERDATA_PASSWORD : @"th3r@1fn1n5fp@1n", USERDATA_AGE:@50, USERDATA_IMAGE:@"person2.jpeg"};
-    [userData addObject:userDict2];
+    NSDictionary *user4 = @{USER_USERNAME : @"jmoi", USER_EMAIL : @"jmoi@gmail.com", USER_PASSWORD : @"th3r@bm1n1n5p@1n", USER_AGE:@49, USER_PROFILE_PICTURE:[UIImage imageNamed:@"person4.jpeg"]};
     
-    NSDictionary *userDict3 = @{USERDATA_USERNAME : @"gchen", USERDATA_EMAIL : @"gchen@gmail.com", USERDATA_PASSWORD : @"th3r@1sn1n5p@1n", USERDATA_AGE:@27, USERDATA_IMAGE:@"person3.jpg"};
-    [userData addObject:userDict3];
-    
-    NSDictionary *userDict4 = @{USERDATA_USERNAME : @"jmoi", USERDATA_EMAIL : @"jmoi@gmail.com", USERDATA_PASSWORD : @"th3r@bm1n1n5p@1n", USERDATA_AGE:@49, USERDATA_IMAGE:@"person4.jpeg"};
-    [userData addObject:userDict4];
-    
-    return [userData copy];
+    //load all the dictionaries into an array
+    NSArray *usersArray = @[user1,user2,user3,user4];  //don't need nil at the end if using literal syntax!
+    return usersArray;
 }
 
 
